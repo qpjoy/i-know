@@ -63,4 +63,12 @@ rush purge
 # de use install-run-rush
 node common/scripts/install-run-rush.js --help
 node common/scripts/install-run-rush.js install
+
+# commit-msg
+
+# prettier
+rush init-autoinstaller --name rush-prettier
+cd common/autoinstallers/rush-prettier
+pnpm install prettier pretty-quick
+rush update-autoinstaller --name rush-prettier
 ```
