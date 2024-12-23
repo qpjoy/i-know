@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('../lib/startCommand.js');
+require("../lib/startCommand.js");

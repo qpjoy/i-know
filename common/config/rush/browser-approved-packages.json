@@ -4,15 +4,15 @@
   "packages": [
     {
       "name": "colors",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": ["tools"]
     },
     {
       "name": "rimraf",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": ["tools"]
     },
     {
       "name": "typescript",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": ["tools"]
     }
   ]
 }

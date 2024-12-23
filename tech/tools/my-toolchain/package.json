@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "rimraf ./lib/ && tsc",
+    "import-strings": "./node_modules/.bin/loc-importer",
     "my-bulk-command": ""
   },
   "dependencies": {
