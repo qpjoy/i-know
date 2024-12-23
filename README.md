@@ -26,6 +26,8 @@ git commit -m "Initial commit"
 rush update
 # 更新所有package.json中的文件到最新版本
 rush update --full
+# 更改pnpm-version 或 设置
+rush update --full --purge
 
 # !!! 重新安装 rush update --purge
 rush rebuild --verbose
@@ -56,4 +58,9 @@ rush unlink
 rush purge
 
 # lib/my-toolchain
+
+
+# de use install-run-rush
+node common/scripts/install-run-rush.js --help
+node common/scripts/install-run-rush.js install
 ```

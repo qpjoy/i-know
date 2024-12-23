@@ -5,10 +5,17 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
   "rushVersion": "5.147.0",
-  "pnpmVersion": "8.15.8",
+  "pnpmVersion": "9.14.4",
   "nodeSupportedVersionRange": ">=18.20.3 <19.0.0 || >=20.14.0 <21.0.0",
   "gitPolicy": {},
-  "repository": {},
+  "approvedPackagesPolicy": {
+    "reviewCategories": ["published", "internal", "tools"],
+    "ignoredNpmScopes": ["@types"]
+  },
+  "repository": {
+    // good for rush change
+    "url": "https://github.com/qpjoy/i-know"
+  },
   "eventHooks": {
     "preRushInstall": [
       // "common/scripts/pre-rush-install.js"
@@ -25,9 +32,9 @@
   "projects": [
     {
       "packageName": "my-toolchain",
-      "projectFolder": "tech/tools/my-toolchain"
-      // "reviewCategory": "tools",
-      // "tags": [ "tools" ]
+      "projectFolder": "tech/tools/my-toolchain",
+      "reviewCategory": "tools",
+      "tags": ["tools"]
     }
   ],
   "allowedProjectTags": ["tools", "fe", "be", "de"]
