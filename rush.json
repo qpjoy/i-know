@@ -34,7 +34,8 @@
       "packageName": "my-toolchain",
       "projectFolder": "tech/tools/my-toolchain",
       "reviewCategory": "tools",
-      "tags": ["tools"]
+      "tags": ["tools"],
+      "shouldPublish": true
     }
   ],
   "allowedProjectTags": ["tools", "fe", "be", "de"]
