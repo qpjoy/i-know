@@ -24,6 +24,18 @@
     },
 
     {
+      "name": "npm-validate",
+      "commandKind": "global",
+      "summary": "Used by the npm publish for validating npm account.",
+      "safeForSimultaneousRushProcesses": true,
+
+      "autoinstallerName": "npm-publish",
+
+      // This will invoke common/autoinstallers/rush-prettier/node_modules/.bin/pretty-quick
+      "shellCommand": "pretty-quick --staged"
+    },
+
+    {
       /**
        * (Required) Determines the type of custom command.
        * Rush's "bulk" commands are invoked separately for each project.  Rush will look in

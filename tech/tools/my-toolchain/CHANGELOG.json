@@ -2,6 +2,18 @@
   "name": "my-toolchain",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "my-toolchain_v1.0.2",
+      "date": "Tue, 24 Dec 2024 04:36:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "quotemark"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "my-toolchain_v1.0.1",
       "date": "Tue, 24 Dec 2024 01:55:49 GMT",

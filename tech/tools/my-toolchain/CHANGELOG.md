@@ -1,6 +1,14 @@
 # Change Log - my-toolchain
 
-This log was last generated on Tue, 24 Dec 2024 01:55:49 GMT and should not be manually modified.
+This log was last generated on Tue, 24 Dec 2024 04:36:49 GMT and should not be manually modified.
+
+## 1.0.2
+
+Tue, 24 Dec 2024 04:36:49 GMT
+
+### Patches
+
+- quotemark
 
 ## 1.0.1
 

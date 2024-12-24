@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@qpyl/my-toolchain",
+      "comment": "change org, first toolchain",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@qpyl/my-toolchain"
+}

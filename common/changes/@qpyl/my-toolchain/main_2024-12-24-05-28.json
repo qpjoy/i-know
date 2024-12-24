@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@qpyl/my-toolchain",
+      "comment": "add npm auth",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@qpyl/my-toolchain"
+}

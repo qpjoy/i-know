@@ -77,3 +77,9 @@ rush publish --pack --include-all --publish --release-folder releases/release-fe
 # 确保有该target分支
 rush publish --apply --target-branch targetBranch
 ```
+
+# 添加 npm 用户
+
+```bash
+npm adduser
+```

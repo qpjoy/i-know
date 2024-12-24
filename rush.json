@@ -31,7 +31,7 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "my-toolchain",
+      "packageName": "@qpyl/my-toolchain",
       "projectFolder": "tech/tools/my-toolchain",
       "reviewCategory": "tools",
       "tags": ["tools"],
