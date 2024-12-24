@@ -1,6 +1,14 @@
-# Change Log - @qpyl/my-toolchain
+# Change Log - qp-my-toolchain
 
-This log was last generated on Tue, 24 Dec 2024 07:27:41 GMT and should not be manually modified.
+This log was last generated on Tue, 24 Dec 2024 10:34:53 GMT and should not be manually modified.
+
+## 1.2.1
+
+Tue, 24 Dec 2024 10:34:53 GMT
+
+### Patches
+
+- not my-toolchain
 
 ## 1.2.0
 
