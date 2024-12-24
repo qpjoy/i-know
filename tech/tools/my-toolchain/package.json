@@ -1,5 +1,5 @@
 {
-  "name": "@qpyl/my-toolchain",
+  "name": "@qpjoy/my-toolchain",
   "version": "1.2.0",
   "description": "An example toolchain used to build projects in this repo",
   "license": "MIT",
