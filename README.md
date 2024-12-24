@@ -74,6 +74,6 @@ rush update-autoinstaller --name rush-prettier
 
 # pack tgz包
 rush publish --pack --include-all --publish --release-folder releases/release-fe
-# 确保有该分支
+# 确保有该target分支
 rush publish --apply --target-branch targetBranch
 ```
