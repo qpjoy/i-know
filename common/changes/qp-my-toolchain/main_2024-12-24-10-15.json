@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "qp-my-toolchain",
+      "comment": "not my-toolchain",
+      "type": "patch"
+    }
+  ],
+  "packageName": "qp-my-toolchain"
+}

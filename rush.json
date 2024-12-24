@@ -31,8 +31,15 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "@qpyl/my-toolchain",
+      "packageName": "qp-my-toolchain",
       "projectFolder": "tech/tools/my-toolchain",
+      "reviewCategory": "tools",
+      "tags": ["tools"],
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@qpjoy/types",
+      "projectFolder": "tech/tools/qp-types",
       "reviewCategory": "tools",
       "tags": ["tools"],
       "shouldPublish": true
