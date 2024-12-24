@@ -2,6 +2,18 @@
   "name": "@qpjoy/types",
   "entries": [
     {
+      "version": "0.0.3",
+      "tag": "@qpjoy/types_v0.0.3",
+      "date": "Tue, 24 Dec 2024 11:10:54 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "change types desc"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.2",
       "tag": "@qpjoy/types_v0.0.2",
       "date": "Tue, 24 Dec 2024 10:59:46 GMT",

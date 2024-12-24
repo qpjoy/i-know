@@ -77,7 +77,7 @@ rush update-autoinstaller --name rush-prettier
 # pack tgz包
 rush publish --pack --include-all --publish --release-folder releases/release-fe
 # 确保有该target分支
-rush publish --apply --target-branch targetBranch
+rush publish --apply --target-branch main
 ```
 
 # 添加 npm 用户
@@ -89,4 +89,4 @@ npm profile enable-2fa auth-and-writes
 
 ### usage
 
-rush change
+先 git add、commit，然后 rush change 会基于 repo url，对比本地和远端的子项目有没有更改。然后建议各个项目是否生成 change log,最后 rush publish --apply --target-branch
