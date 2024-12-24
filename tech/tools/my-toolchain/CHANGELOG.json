@@ -2,6 +2,18 @@
   "name": "@qpyl/my-toolchain",
   "entries": [
     {
+      "version": "1.2.0",
+      "tag": "@qpyl/my-toolchain_v1.2.0",
+      "date": "Tue, 24 Dec 2024 07:27:41 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "change rush description"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.0",
       "tag": "@qpyl/my-toolchain_v1.1.0",
       "date": "Tue, 24 Dec 2024 05:31:11 GMT",
