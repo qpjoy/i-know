@@ -71,4 +71,7 @@ rush init-autoinstaller --name rush-prettier
 cd common/autoinstallers/rush-prettier
 pnpm install prettier pretty-quick
 rush update-autoinstaller --name rush-prettier
+
+# pack tgz包
+rush publish --pack --include-all --publish --release-folder releases/release-fe
 ```
