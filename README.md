@@ -14,6 +14,8 @@ I know i-know
 ```
 
 ```bash
+npm install -g @microsoft/rush --loglevel verbose
+
 git clone git@github.com:qpjoy/i-know.git
 rush init
 
@@ -82,4 +84,9 @@ rush publish --apply --target-branch targetBranch
 
 ```bash
 npm adduser
+npm profile enable-2fa auth-and-writes
 ```
+
+### usage
+
+rush change

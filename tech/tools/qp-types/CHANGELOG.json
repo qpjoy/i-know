@@ -1,0 +1,17 @@
+{
+  "name": "@qpjoy/types",
+  "entries": [
+    {
+      "version": "0.0.2",
+      "tag": "@qpjoy/types_v0.0.2",
+      "date": "Tue, 24 Dec 2024 10:59:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "init qpjoy types"
+          }
+        ]
+      }
+    }
+  ]
+}

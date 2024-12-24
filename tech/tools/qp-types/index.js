@@ -1,2 +1,2 @@
 const path = require("path");
-console.log("types index!~~~!!", __dirname);
+console.log("types index!~~~!!~~", __dirname);
