@@ -1,6 +1,15 @@
-# Change Log - my-toolchain
+# Change Log - @qpyl/my-toolchain
 
-This log was last generated on Tue, 24 Dec 2024 04:36:49 GMT and should not be manually modified.
+This log was last generated on Tue, 24 Dec 2024 05:31:11 GMT and should not be manually modified.
+
+## 1.1.0
+
+Tue, 24 Dec 2024 05:31:11 GMT
+
+### Minor changes
+
+- change org, first toolchain
+- add npm auth
 
 ## 1.0.2
 

@@ -1,6 +1,6 @@
 {
   "name": "@qpyl/my-toolchain",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "An example toolchain used to build projects in this repo",
   "license": "MIT",
   "bin": {
