@@ -9,7 +9,7 @@
   "nodeSupportedVersionRange": ">=18.20.3 <19.0.0 || >=20.14.0 <21.0.0",
   "gitPolicy": {},
   "approvedPackagesPolicy": {
-    "reviewCategories": ["published", "internal", "tools"],
+    "reviewCategories": ["published", "internal", "tools", "fe", "be", "de"],
     "ignoredNpmScopes": ["@types"]
   },
   "repository": {
@@ -42,6 +42,20 @@
       "projectFolder": "tech/tools/qp-types",
       "reviewCategory": "tools",
       "tags": ["tools"],
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@qpjoy/tools_file_csv",
+      "projectFolder": "tech/tools/file/csv",
+      "reviewCategory": "tools",
+      "tags": ["tools"],
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@qpjoy/fe_browser_pac",
+      "projectFolder": "tech/fe/browser/pac",
+      "reviewCategory": "fe",
+      "tags": ["fe"],
       "shouldPublish": true
     }
   ],

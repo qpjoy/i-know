@@ -7,6 +7,10 @@
       "allowedCategories": ["tools"]
     },
     {
+      "name": "express",
+      "allowedCategories": ["fe"]
+    },
+    {
       "name": "rimraf",
       "allowedCategories": ["tools"]
     },

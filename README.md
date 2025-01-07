@@ -76,7 +76,7 @@ rush update-autoinstaller --name rush-prettier
 
 # pack tgz包
 rush publish --pack --include-all --publish --release-folder releases/release-fe
-# 确保有该target分支
+# 确保有该target分支,apply生成log，需要提供远端分支
 rush publish --apply --target-branch main
 ```
 
@@ -85,8 +85,24 @@ rush publish --apply --target-branch main
 ```bash
 npm adduser
 npm profile enable-2fa auth-and-writes
+
+# 可以免费发布公有org包
+## 在@qpjoy/qp-at-public的package.json目录下运行
+npm publish --access public
 ```
 
 ### usage
 
-先 git add、commit，然后 rush change 会基于 repo url，对比本地和远端的子项目有没有更改。然后建议各个项目是否生成 change log,最后 rush publish --apply --target-branch
+1. 先 git add、commit，然后 rush change 会基于 repo url，对比本地和远端的子项目有没有更改。然后建议各个项目是否生成 change log,最后 rush publish --apply --target-branch
+2. 当需要发版(也就是发 npm 包，或者上线版本)的时候，运行 rush chang，其他情况下只需要 git 操作。可以理解为 rush change 和 rush publish 只是管理员需要操作的。
+
+# Plugins
+
+Auto Rename Tag
+ES7 React/Redux/GraphQL/React-Native Snippets
+Prettier - Code Formatter
+JavaScript (ES6) Code Snippets
+
+#### Useful links
+
+https://medium.com/itnext/build-a-scalable-front-end-with-rush-monorepo-and-react-part-1-dd50ae38ad3e
