@@ -1,0 +1,17 @@
+{
+  "name": "@qpjoy/tools_file_csv",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@qpjoy/tools_file_csv_v1.0.1",
+      "date": "Tue, 07 Jan 2025 06:31:26 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "csv writer"
+          }
+        ]
+      }
+    }
+  ]
+}
